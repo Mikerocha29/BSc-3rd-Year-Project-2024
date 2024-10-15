@@ -1,0 +1,136 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+
+
+.search-container {
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.submenu {
+    display: none; /* Hide the submenu by default */
+    position: absolute;
+    background-color: #fff; /* Background color of the submenu */
+    border: 1px solid #ccc; /* Border of the submenu */
+    /* Add any other styling properties as needed */
+}
+
+.nav-item:hover .submenu {
+    display: block; /* Display the submenu when the parent nav item is hovered */
+}
+
+
+/*.submenu2 {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.nav-item:hover .submenu2 {
+    display: block;
+}
+
+.submenu3 {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.nav-item:hover .submenu3 {
+    display: block;
+}*/
+
+/*******************************/
+/*body{
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}*/
+
+.container_contact {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #343A40;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 10px rgb(59, 55, 55);
+}
+
+.container_checkout {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #343A40;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 10px rgb(59, 55, 55);
+}
+
+.text {
+    text-align: center;
+}
+.container imgg {
+    Width: 20px;
+    Height: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #343A40;
+}
+
+label {
+    font-weight: bold;
+}
+
+/*.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+*/
+.btn-primary {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f8f9fa;
+    background-color: #343A40;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }

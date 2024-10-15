@@ -1,0 +1,19 @@
+﻿@model SupplementListViewModel
+
+
+
+<div>
+    <h2>@Model.CategoryProtein</h2>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+
+        @foreach (var supplement in Model.Supplements)
+        {
+            <partial name="_SupplementsSummary" for="@supplement"/>
+        }
+    </div>
+</div>

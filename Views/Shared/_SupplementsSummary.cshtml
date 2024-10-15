@@ -1,0 +1,21 @@
+﻿@model Supplement
+
+
+<div class="col-sm-4 col-md-4 col-lg-4">
+    <p><img src="@Model.ImageUrl" class="img-fluid"></p>
+    <h2>Price : @Model.Price.ToString("C")</h2>
+    <a asp-controller="Supplement" asp-action="Details" asp-route-SupplementId="@Model.SupplementId">@Model.Name</a>
+   
+    
+    <p> @Model.DescriptionShort</p>
+
+    <div>
+        <p class="button">
+            <a class="btn btn-primary" id="cartButton" asp-controller="ShoppingCart" asp-action="AddItemCart" asp-route-SupplementId="@Model.SupplementId">
+                Add To Cart
+
+            </a>
+        </p>
+    </div>
+
+</div>
